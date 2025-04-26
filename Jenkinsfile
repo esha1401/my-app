@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Clone Repository') {
             steps {
-                git branch: 'main', url: 'https://github.com/Avinashgoyal453/Python-flask-docker-app.git'
+                git branch: 'main', url: 'https://github.com/esha1401/my-app.git'
             }
         }
 
