@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = 'esha01/flash-docker-app'
+        IMAGE_NAME = 'esha01/flask-docker-app'
     }
 
     stages {
