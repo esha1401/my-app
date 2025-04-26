@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         DOCKERHUB_CREDENTIALS = credentials('dockerhub-creation')
-        IMAGE_NAME = 'esha/flask-app'  // Your Docker Hub repo name
+        IMAGE_NAME = 'esha01/flask-app'  // Your Docker Hub repo name
     }
 
     stages {
